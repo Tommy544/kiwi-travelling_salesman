@@ -7,7 +7,6 @@ def load_flights_to_dict():
     destinations = list()
     start_city = None
 
-    print('entering cycle')
     for line in fileinput.input():
         split = line.split()
         if len(split) == 0:

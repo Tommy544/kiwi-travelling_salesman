@@ -2,7 +2,7 @@ import networkx as nx
 
 
 def generate_graph(flights_dict, cities):
-    graph = nx.Graph()
+    graph = nx.DiGraph()
 
     for i in range(0, len(flights_dict)):
         for d in cities:
